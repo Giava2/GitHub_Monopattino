@@ -6,7 +6,6 @@ public class RemoveHolo : MonoBehaviour
 {
     public GameObject hologram = null;
     public GameObject component = null;
-    public Material material = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +20,17 @@ public class RemoveHolo : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        hologram.GetComponent<MeshRenderer>().enabled = false;
+        if(other.gameObject == component)
+        {
+            hologram.GetComponent<MeshRenderer>().enabled = false;
+        }   
     }
 
     private void OnTriggerExit(Collider other)
     {
-        hologram.GetComponent<MeshRenderer>().enabled = true;
+        if(other.gameObject == component)
+        {
+            hologram.GetComponent<MeshRenderer>().enabled = true;
+        }
     }
 }
