@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Real Scene/Real.Didattica.unity
     guid: ab1d1ff712da4ae439bed33a97efe1ac
+  - enabled: 1
+    path: Assets/Real Scene/Garage.unity
+    guid: 6127b82515d48ff4682b7ca4db73af4a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a6816350d8d3e274f88028a5a2d8ad21, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1f5d73db4f2823343b3bcbcaff49107e, type: 2}
