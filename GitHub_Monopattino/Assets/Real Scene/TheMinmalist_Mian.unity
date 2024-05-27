@@ -59593,6 +59593,7 @@ GameObject:
   - component: {fileID: 2625634178295851299}
   - component: {fileID: 3403578870442668955}
   - component: {fileID: 3403578870442668954}
+  - component: {fileID: 3403578870442668956}
   m_Layer: 0
   m_Name: metal_tool_chest_4k
   m_TagString: Untagged
@@ -59648,6 +59649,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &3403578870442668956
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3403578870442668953}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &3424863109682247605
 Transform:
   m_ObjectHideFlags: 0
